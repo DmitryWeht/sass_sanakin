@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href=".output.css" rel="stylesheet" />
+    <link href="output.css" rel="stylesheet" />
+    <link href="./fontawesome-free-6.4.2-web/css/all.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,7 +16,7 @@
   </head>
   <body>
     <div class="grid-container">
-      <div class="sidebar-container">
+      <aside class="sidebar-container">
         <div class="nav-container">
           <img src="./images/sanaki_logo.svg" />
           <nav>
@@ -64,20 +65,95 @@
           </div>
           <button><i class="fa-solid fa-arrow-right-from-bracket"></i>Log out</button>
         </div>
-      </div>
+      </aside>
 
-      <div class="header">
+      <header class="header">
         <p>Dashboard</p>
         <p>12th January of 2023, 12:00 pm</p>
+      </header>
+
+      <div class="product-information n1">
+        <div>
+          <p>240</p>
+          <p>Total Products</p>
+        </div>
+        <img src="./images/product/product_total.svg" alt="" />
       </div>
 
-      <div class="total n1">2</div>
-      <div class="total n2"></div>
-      <div class="total n3"></div>
-      <div class="total n4"></div>
-      <div class="add n5"></div>
-      <div class="add n6"></div>
-      <div class="summery"></div>
+      <div class="product-information n2">
+        <div>
+          <p>1200</p>
+          <p>Total Sales</p>
+        </div>
+        <img src="./images/product/product_sales.svg" alt="" />
+      </div>
+      <div class="n8"></div>
+      <div class="product-information n3">
+        <div>
+          <p>240</p>
+          <p>Pending Orders</p>
+        </div>
+        <img src="./images/product/product_pending.svg" alt="" />
+      </div>
+
+      <div class="product-information n4">
+        <div>
+          <p>240</p>
+          <p>On Proccess to Delivery</p>
+        </div>
+        <img src="./images/product/product_delivery.svg" alt="" />
+      </div>
+
+      <div class="product-action n5">
+        <p>Add new Product</p>
+        <p>introduce your new product to the market.</p>
+        <img src="./images/product/action_add.svg" alt="add product" />
+      </div>
+
+      <div class="product-action n6">
+        <p>Increase Items</p>
+        <p>increase the product amout.</p>
+        <img src="./images/product/action_increase.svg" alt="increase product" />
+      </div>
+
+      <div class="product-statistic">
+        <h2>Stock summery</h2>
+        <div class="diagram-container">
+          <div class="stat-container">
+            <div class="legenda-wrapper">
+              <div></div>
+              <p>added stock</p>
+            </div>
+            <div class="legenda-wrapper2">
+              <div></div>
+              <p>available stock</p>
+            </div>
+          </div>
+          <div class="image-wrapper">
+            <span>100%</span>
+            <img src="./images/diagram.svg" />
+          </div>
+        </div>
+        <h3>Low stock Products</h3>
+        <div class="low-stock-container">
+          <div class="product-line-wrapper">
+            <p>Product name</p>
+            <p>Remaining 10%</p>
+          </div>
+          <div class="product-line-wrapper">
+            <p>Product name</p>
+            <p>Remaining 10%</p>
+          </div>
+          <div class="product-line-wrapper">
+            <p>Product name</p>
+            <p>Remaining 10%</p>
+          </div>
+          <div class="product-line-wrapper">
+            <p>Product name</p>
+            <p>Remaining 10%</p>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>

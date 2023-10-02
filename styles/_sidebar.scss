@@ -1,0 +1,11 @@
+@use 'variables';
+
+.sidebar-container {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 250px;
+  min-height: 100vh;
+  height: 660px;
+  background: variables.$secondary-background-color;
+}

@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["styles/output.scss","styles/_variables.scss"],"names":[],"mappings":"AAMA;AAAA;AAAA;EAGE;EACA;EACA;EACA,aCXY;;;ADcd;EACE;;;AAGF;EACE;;;AAGF;EACE","file":"output.css"}
+{"version":3,"sourceRoot":"","sources":["styles/_sidebar.scss","styles/_variables.scss","styles/output.scss"],"names":[],"mappings":"AAEA;EACE;EACA;EACA;EACA;EACA;EACA;EACA,YCJ2B;;;ACC7B;AAAA;AAAA;EAGE;EACA;EACA;EACA,aDXY;;;ACcd;EACE;;;AAGF;EACE;;;AAGF;EACE;EACA","file":"output.css"}
