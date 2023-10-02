@@ -1,16 +1,10 @@
-@import 'variables';
-@import 'header';
-@import 'ordersSection';
-@import 'sidebar';
-@import 'productSection';
-
 *,
 html,
 body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: $font-family;
+  font-family: "Inter", "sans-serif";
 }
 
 button {
@@ -24,3 +18,5 @@ ul {
 h1 {
   margin: 0;
 }
+
+/*# sourceMappingURL=output.css.map */
